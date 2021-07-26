@@ -1,0 +1,122 @@
+* {
+    background-image: url(../imges/backgrounggray2.jpg);
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+:root {
+    --fontsize:'Secular One', sans-serif;
+
+  }
+/* עיצוב navbar */
+
+.NavBar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 3%;
+    font-size: 30px;
+}
+
+.NavBar a {
+    float: right;
+    color: #1e3d59;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+}
+
+.NavBar a:hover {
+    font-size: 40px;
+    color: hotpink;
+    transition-duration: 1s;
+   transition-timing-function: ease-in-out;
+}
+
+/* .NavBar a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+/* לוגו */
+
+.logo {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+/* תמונה ראשונה מסך בית */
+
+.HomeFirstImg {
+    width: 99.5%;
+    height: 100%;
+    border : 2px double #1e3d59;
+}
+
+@media screen and (min-device-width:10px) and (max-device-width:440px) {
+    .NavBar {
+        width: 100%;
+        height: 100%;
+        font-size: 50%;
+        text-align: center;
+    }
+  
+   
+}
+
+ .headerOne {
+     font-size: 40px;
+     margin: 10px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+ }
+
+ .containerOne {
+     display: inline-block;
+    position: relative;
+  
+
+    
+  }
+  
+  .imageone {
+
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    border-radius:40% ;
+    margin: 10px 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1e3d59;
+  }
+  
+  .containerOne:hover .overlay {
+    opacity: 0.6;
+
+  }
+
+
+  
+  .text {
+    color:black;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    text-align: center;
+  }
+
+
