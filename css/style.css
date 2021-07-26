@@ -7,6 +7,7 @@
 
 :root {
     --fontsize:'Secular One', sans-serif;
+    --colorHead: #1e3d59;
 
   }
 /* עיצוב navbar */
@@ -24,7 +25,7 @@
     color: #1e3d59;
     text-align: center;
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--fontsize);
 }
 
 .NavBar a:hover {
@@ -34,10 +35,6 @@
    transition-timing-function: ease-in-out;
 }
 
-/* .NavBar a.active {
-    background-color: #04AA6D;
-    color: white;
-  } */
 
 /* לוגו */
 
@@ -62,15 +59,20 @@
         font-size: 50%;
         text-align: center;
     }
-  
+    .containerOne{
+        width: 33%;
+        height: 33%;
+        font-size: 50%;
+    }
    
 }
 
  .headerOne {
+     color: var(--colorHead);
      font-size: 40px;
      margin: 10px;
     text-align: center;
-    font-family: 'Secular One', sans-serif;
+    font-family: var(--fontsize);
  }
 
  .containerOne {
@@ -120,3 +122,15 @@
   }
 
 
+
+
+.headertwo {
+    color: var(--colorHead);
+    font-family: var(--fontsize);
+    font-size: 35px;
+    text-align: center;
+}
+
+.video {
+    align-content: center;
+}
