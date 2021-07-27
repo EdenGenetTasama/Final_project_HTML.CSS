@@ -64,7 +64,27 @@
         height: 33%;
         font-size: 50%;
     }
-   
+   .video{
+    width: 40%;
+    height: 40%;
+   }
+
+   section{
+/* display: flex; */
+/* justify-content: ; */
+   }
+
+.formstyle {
+    width: 10%;
+    height: 10%;
+    font-size: 33%;
+}
+.form {
+    margin: 0;
+    width:40%;
+    height: auto;
+    font-size: 0%;
+}
 }
 
  .headerOne {
@@ -102,7 +122,7 @@
    top: 0;
     bottom: 0;
     left: 0;
-    right: 0; 
+    right:0; 
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -121,8 +141,8 @@
     color:black;
     font-size: 50px;
     position: absolute;
-    top: 40%;
-    left: 70%;
+    top:35%;
+    left: 45%;
     text-align: center;
   }
 
@@ -146,6 +166,26 @@
 
 .Paragraph {
     font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:sans-serif;
     text-align: center;
+}
+
+.headerthree {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: var(--colorHead);
+    font-family: var(--fontsize);
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-image: url(../imges/coverfirstsec.jpg);
+}
+
+.formstyle {
+    font-size: 120%;
+    font-family:sans-serif;
 }
