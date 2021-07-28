@@ -173,6 +173,9 @@
     height: auto;
     z-index: 1;
 }
+.marginbuttom {
+    margin-top: 7%;
+}
 
 
 @media screen and (max-device-width:440px) {
@@ -193,13 +196,14 @@
     }
 
     .FirstPara{
-        font-size: 80%;
+        font-size: 60%;
     }
 
-    .youtubeVideo{
+    .youtubeVideoOne{
         display: flex;
         flex-direction: column;
-       width: 50%;
+       width: 80%;
+       height: auto;
     }
 
     .imgInsidepara3{
@@ -214,13 +218,12 @@
 
 
      .imgInsidepara2{
-         width: 8%;
-        height:16%;
-        left: 0%;
+        height:20%;
+        width:12%;
      }
-
-    
-   
+     .footer{
+        width: 100%;
+      }
 }
 
 
