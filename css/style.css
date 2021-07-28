@@ -193,7 +193,7 @@
 #form {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 15px;
     background-image: url(../imges/coverfirstsec.jpg);
 }
 
@@ -204,6 +204,14 @@
     border-radius: 10%;
 }
 
+#hoverButtom:hover {
+    background-image: url(../imges/coversecond.jpg);
+    color: cornsilk;
+}
+
+.inputform:focus{
+   border: 6px solid cornsilk;
+}
 
     .footer {
         background-image: url(../imges/coversecond.jpg) !important;
@@ -239,3 +247,18 @@
         z-index: 1;
 
      }
+
+     .contact {
+display: flex;
+justify-content: space-between;
+         background-image: url(../imges/backgrown\ dark.jpg);
+         color: hotpink;
+         font-family: var(--fontsize);
+         
+     }
+
+
+
+     /* .contact a {
+         text-decoration: none;
+     } */
