@@ -82,9 +82,7 @@
         flex-direction: column;
         /* justify-content: center; */
     }
- .footer{
-   width: 100%;
- }
+
  .sizeOfHeader {
      font-size: 10%;
  }
@@ -295,7 +293,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width:116%;
     height: 10%;
     font-family: var(--fontsize);
     color: var(--colorHead);

@@ -147,16 +147,17 @@ font-family: var(--fontsize);
 
         #store {
             width: 20%;
-            height: 20%;
+            height: 20%;    
+            border: 2px solid grey;
         }
-        #store {
-            border: 2px solid grey;}
 
         #store img{
-            width:70%;
-            height:70%;
+            width:80%;
+            height:80%;
             margin-right:15px;
     }
+
+
     .sectionform{
         width:50%;
         height:50%;
