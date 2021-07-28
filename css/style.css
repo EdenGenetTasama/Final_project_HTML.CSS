@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     direction: rtl;
+    box-sizing: border-box;
 }
 
 :root {
@@ -82,7 +83,7 @@
         /* justify-content: center; */
     }
  .footer{
-   left: 30px;
+   width: 100%;
  }
  .sizeOfHeader {
      font-size: 10%;
@@ -95,7 +96,7 @@
     .NavBar {
         width: 100%;
         height: 100%;
-        font-size: 60%;
+        font-size: 80%;
         text-align: center;
     }
     .containerOne {
@@ -122,14 +123,22 @@
     .form{
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+    
     }
- .footer{
-   left: 30px;
- }
+ 
  .sizeOfHeader {
      font-size: 10%;
  }
+ .contact{
+    margin-bottom: 20%;
+}
+ .formstyle{
+    width:50vw;
+  }
+
+  .sectionform {
+    width:80vw;
+  }
 
 }
 
@@ -138,7 +147,7 @@
     .NavBar {
         width: 100%;
         height: 100%;
-        font-size: 90%;
+        font-size: 100%;
         text-align: center;
     }
     .containerOne {
@@ -166,15 +175,19 @@
     .form{
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+     
     }
- .footer{
-   
- }
- .sizeOfHeader {
-     font-size: 50%;
- }
-
+    .contact{
+        margin-bottom: 20%;
+    }
+     .formstyle{
+        width:50vw;
+      }
+    
+      .sectionform {
+        width:80vw;
+      }
+    
 }
 
 .headerOne {
@@ -280,7 +293,7 @@
 .footer {
     background-image: url(../imges/coversecond.jpg) !important;
     position: fixed;
-    left: 30px;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: 10%;
@@ -295,8 +308,8 @@
 }
 
 .footerImg {
-    width: 35px;
-    height: 30px;
+    width: 55px;
+    height: 50px;
     padding: 10px;
     background-image: url(../imges/coversecond.jpg) !important;
 }
@@ -306,7 +319,6 @@
     position: fixed;
     left: 0;
     bottom: 92%;
-    ;
     width: 4%;
     height: auto;
     z-index: 1;

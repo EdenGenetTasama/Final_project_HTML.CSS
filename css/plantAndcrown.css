@@ -65,6 +65,10 @@ font-family: var(--fontsize);
 
   }
 
+  .organizing:hover{
+    border:4px solid grey;
+  }
+
   .allStore {
       display: flex;
       justify-content: space-evenly;
@@ -72,12 +76,17 @@ font-family: var(--fontsize);
       
   }
   #store {
-    border: 5px solid grey;
+    border:3px solid grey;
     border-radius: 10%;
     padding: 13px ;
     margin: 30px;
      width: 400px;
     height: 500px;
+    }
+
+    #store:hover{
+        border:5px solid grey;
+        transition-duration: 1s;
     }
 
     #store img{
@@ -111,6 +120,7 @@ font-family: var(--fontsize);
        width: 100vw;
     }
 
+  
     @media screen and (max-device-width:440px) {
        
         .NavBar {
@@ -240,9 +250,7 @@ font-family: var(--fontsize);
     width:80vw;
   }
 
-  /* .marginbuttom{
-      padding: 30px;
-  } */
+
     }
 
 
