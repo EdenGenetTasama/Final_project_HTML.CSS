@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 h2 {
     text-align: center;
@@ -72,6 +73,7 @@ font-family: var(--fontsize);
   }
   #store {
     border: 5px solid grey;
+    border-radius: 10%;
     padding: 13px ;
     margin: 30px;
      width: 400px;
@@ -104,3 +106,213 @@ font-family: var(--fontsize);
         color: cornsilk;
         transition: 0.5s ease-in-out;
     }
+
+    .sectionform {
+       width: 100vw;
+    }
+
+    @media screen and (max-device-width:440px) {
+       
+        .NavBar {
+            width: 100%;
+            height: 100%;
+            font-size: 70%;
+            text-align: center;
+        }
+        h2 {
+
+            font-size: 70%;
+        }
+
+        .slider {
+            width: 60vw;
+            height:40vh;
+        }
+
+        .organizing {
+            width: 40%;
+            font-size: 10px;
+        
+        }
+
+        #store {
+            width: 20%;
+            height: 20%;
+        }
+        #store {
+            border: 2px solid grey;}
+
+        #store img{
+            width:70%;
+            height:70%;
+            margin-right:15px;
+    }
+    .sectionform{
+        width:50%;
+        height:50%;
+     }
+
+     .inputform {
+        width:50vw;
+     }
+     .form form {
+         display: flex;
+        flex-direction: column;  
+     }
+
+     #hoverButtom{
+        width:100%;
+     }
+ 
+
+ .formstyle{
+    width:50vw;
+  }
+
+  .sectionform {
+    width:80vw;
+  }
+    }
+
+
+    @media screen and (max-device-width:780px) {
+       
+        .NavBar {
+            width: 100%;
+            height: 100%;
+            font-size: 70%;
+            text-align: center;
+        }
+        h2 {
+
+            font-size: 70%;
+        }
+
+        .slider {
+            width: 60vw;
+            height:40vh;
+        }
+
+        .organizing {
+            width: 30%;
+            font-size: 10px;
+        
+        }
+
+        #store {
+            width: 20%;
+            height: 20%;
+        }
+        #store {
+            border: 2px solid grey;}
+    
+
+        #store img{
+            width:70%;
+            height:70%;
+            margin-right:15px;
+    }
+    .sectionform{
+        width:50%;
+        height:50%;
+     }
+
+     .inputform {
+        width:50vw;
+     }
+     .form form {
+         display: flex;
+        flex-direction: column;
+     }
+
+     #hoverButtom{
+        width:100%;
+     }
+
+.contact{
+    margin-bottom: 20%;
+}
+ .formstyle{
+    width:50vw;
+  }
+
+  .sectionform {
+    width:80vw;
+  }
+
+  /* .marginbuttom{
+      padding: 30px;
+  } */
+    }
+
+
+    @media screen and (max-device-width:1200px) {
+       
+        .NavBar {
+            width: 100%;
+            height: 100%;
+            font-size: 90%;
+            text-align: center;
+        }
+        h2 {
+
+            font-size: 80%;
+        }
+
+        .slider {
+            width: 70vw;
+            height:50vh;
+        }
+
+        .organizing {
+            width:40%;
+            font-size: 15px;
+        
+        }
+
+        #store {
+            width: 20%;
+            height: 20%;
+        }
+        #store {
+            border: 2px solid grey;}
+
+        #store img{
+            width:70%;
+            height:70%;
+            margin-right:15px;
+    }
+    .sectionform{
+        width:50%;
+        height:50%;
+     }
+
+     .inputform {
+        width:50vw;
+     }
+     .form form {
+         display: flex;
+        flex-direction: column;
+
+     }
+
+     #hoverButtom{
+        width:100%;
+     }
+ .footer {
+    left: 30px;
+  }
+
+ .formstyle{
+    width:50vw;
+  }
+
+  .sectionform {
+    width:80vw;
+  }
+
+  .marginbuttom{
+    padding:3px;
+}
+    }
+
