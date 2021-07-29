@@ -90,6 +90,7 @@
 }
 
 
+
 @media screen and (max-device-width:800px) {
     .NavBar {
         width: 100%;
@@ -293,12 +294,13 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width:116%;
-    height: 10%;
+    width:100vw;
+    height: auto;
     font-family: var(--fontsize);
     color: var(--colorHead);
     font-size: 20px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .marginbuttom {
@@ -329,3 +331,5 @@
     color: hotpink;
     font-family: var(--fontsize);
 }
+
+
