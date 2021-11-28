@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h2 {
     text-align: center;
     text-decoration: none;
@@ -14,44 +15,53 @@ h2 {
 .HeaderPage::first-letter {
     font-size: 60px;
 }
-.slider{
+
+.slider {
     width: 70%;
     height: 80vh;
     display: flex;
     overflow: hidden;
-    margin-right: 15%; 
+    margin-right: 15%;
     background-size: cover;
 }
+
 .slider .card {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
-    animation: moveside 10s alternate infinite;
-    animation-delay: 3s;
+    animation: moveside 6s alternate infinite;
+    animation-delay: 6s;
 }
-.slider .card img{
+
+.slider .card img {
     width: 100%;
     height: 100%;
 }
+
 @keyframes moveside {
-    0%{
+    0% {
         transform: translateX(-0%);
     }
-    25%{
+
+    25% {
         transform: translateX(100%);
     }
-    50%{
+
+    50% {
         transform: translateX(200%);
     }
-    75%{
+
+    75% {
         transform: translateX(300%);
     }
-    100%{
+
+    100% {
         transform: translateX(400%);
-    }}
+    }
+}
 
 /* רשימת בחירה של סינון */
-  .organizing {
+.organizing {
     width: 30%;
     padding: 12px 20px;
     margin: 3%;
@@ -59,270 +69,284 @@ h2 {
     border: 2px solid grey;
     border-radius: 4px;
     box-sizing: border-box;
-font-size:20px ;
-font-family: var(--fontsize);
+    font-size: 20px;
+    font-family: var(--fontsize);
     color: var(--colorHead);
 
-  }
+}
 
-  .organizing:hover{
-    border:4px solid grey;
-  }
+.organizing:hover {
+    border: 4px solid grey;
+}
 
-  .allStore {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      
-  }
-  #store {
-    border:3px solid grey;
+.allStore {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#store {
+    border: 3px solid grey;
     border-radius: 10%;
-    padding: 13px ;
+    padding: 13px;
     margin: 30px;
-     width: 400px;
+    width: 400px;
     height: 500px;
-    }
+}
 
-    #store:hover{
-        border:5px solid grey;
-        transition-duration: 1s;
-    }
+#store:hover {
+    border: 5px solid grey;
+    transition-duration: 1s;
+}
 
-    #store img{
-        width: 80%;
-        height: 80%;
-        margin-right: 33px;
-    
-            }
+#store img {
+    width: 80%;
+    height: 80%;
+    margin-right: 33px;
 
-    .buyStore {
+}
+
+.buyStore {
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--fontsize);
+    color: var(--colorHead);
+}
+
+.button {
+    border-radius: 30%;
+    font-size: 90%;
+    background-image: url(../imges/coversecond.jpg);
+    font-weight: bold;
+    padding: 3%;
+}
+
+.button:hover {
+    color: cornsilk;
+    transition: 0.5s ease-in-out;
+}
+
+.sectionform {
+    width: 100vw;
+}
+
+
+@media screen and (max-device-width:440px) {
+
+    .NavBar {
+        width: 100%;
+        height: 100%;
+        font-size: 70%;
         text-align: center;
-        font-size: 18px;
-        font-family: var(--fontsize);
-        color: var(--colorHead);
     }
 
-    .button {
-        border-radius: 30%;
-        font-size: 90%;
-        background-image: url(../imges/coversecond.jpg);
-        font-weight: bold;
+    h2 {
+
+        font-size: 70%;
+    }
+
+    .slider {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .organizing {
+        width: 40%;
+        font-size: 10px;
+
+    }
+
+    #store {
+        width: 40%;
+        height: auto;
+        border: 2px solid grey;
         padding: 3%;
     }
 
-    .button:hover {
-        color: cornsilk;
-        transition: 0.5s ease-in-out;
+    #store img {
+        width: 33px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+
+    .sectionform {
+        width: 50%;
+        height: 50%;
+    }
+
+    .inputform {
+        width: 50vw;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hoverButtom {
+        width: 100%;
+    }
+
+
+    .formstyle {
+        width: 50vw;
     }
 
     .sectionform {
-       width: 100vw;
+        width: 80vw;
     }
-
-  
-    @media screen and (max-device-width:440px) {
-       
-        .NavBar {
-            width: 100%;
-            height: 100%;
-            font-size: 70%;
-            text-align: center;
-        }
-        h2 {
-
-            font-size: 70%;
-        }
-
-        .slider {
-            width: 60vw;
-            height:40vh;
-        }
-
-        .organizing {
-            width: 40%;
-            font-size: 10px;
-        
-        }
-
-        #store {
-            width:40%;
-            height: auto;    
-            border: 2px solid grey;
-            padding: 3%;
-        }
-
-        #store img{
-            width:33px;
-            height:auto;
-            margin-right:15px;
-    }
-
-
-    .sectionform{
-        width:50%;
-        height:50%;
-     }
-
-     .inputform {
-        width:50vw;
-     }
-     .form form {
-         display: flex;
-        flex-direction: column;  
-     }
-
-     #hoverButtom{
-        width:100%;
-     }
- 
-
- .formstyle{
-    width:50vw;
-  }
-
-  .sectionform {
-    width:80vw;
-  }
-    }
-
-
-    @media screen and (max-device-width:780px) {
-       
-        .NavBar {
-            width: 100%;
-            height: 100%;
-            font-size: 70%;
-            text-align: center;
-        }
-        h2 {
-
-            font-size: 70%;
-        }
-
-        .slider {
-            width: 60vw;
-            height:40vh;
-        }
-
-        .organizing {
-            width: 30%;
-            font-size: 10px;
-        
-        }
-
-        #store {
-            width: 20%;
-            height: 20%;
-        }
-        #store {
-            border: 2px solid grey;}
-    
-
-        #store img{
-            width:70%;
-            height:70%;
-            margin-right:15px;
-    }
-    .sectionform{
-        width:50%;
-        height:50%;
-     }
-
-     .inputform {
-        width:50vw;
-     }
-     .form form {
-         display: flex;
-        flex-direction: column;
-     }
-
-     #hoverButtom{
-        width:100%;
-     }
-
-.contact{
-    margin-bottom: 20%;
 }
- .formstyle{
-    width:50vw;
-  }
 
-  .sectionform {
-    width:80vw;
-  }
 
+@media screen and (max-device-width:780px) {
+
+    .NavBar {
+        width: 100%;
+        height: 100%;
+        font-size: 70%;
+        text-align: center;
+    }
+
+    h2 {
+
+        font-size: 70%;
+    }
+
+    .slider {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .organizing {
+        width: 30%;
+        font-size: 10px;
 
     }
 
-
-    @media screen and (max-device-width:1200px) {
-       
-        .NavBar {
-            width: 100%;
-            height: 100%;
-            font-size: 90%;
-            text-align: center;
-        }
-        h2 {
-
-            font-size: 80%;
-        }
-
-        .slider {
-            width: 70vw;
-            height:50vh;
-        }
-
-        .organizing {
-            width:40%;
-            font-size: 15px;
-        
-        }
-
-        #store {
-            width: 20%;
-            height: 20%;
-        }
-        #store {
-            border: 2px solid grey;}
-
-        #store img{
-            width:70%;
-            height:70%;
-            margin-right:15px;
+    #store {
+        width: 20%;
+        height: 20%;
     }
-    .sectionform{
-        width:50%;
-        height:50%;
-     }
 
-     .inputform {
-        width:50vw;
-     }
-     .form form {
-         display: flex;
+    #store {
+        border: 2px solid grey;
+    }
+
+
+    #store img {
+        width: 70%;
+        height: 70%;
+        margin-right: 15px;
+    }
+
+    .sectionform {
+        width: 50%;
+        height: 50%;
+    }
+
+    .inputform {
+        width: 50vw;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hoverButtom {
+        width: 100%;
+    }
+
+    .contact {
+        margin-bottom: 20%;
+    }
+
+    .formstyle {
+        width: 50vw;
+    }
+
+    .sectionform {
+        width: 80vw;
+    }
+
+
+}
+
+
+@media screen and (max-device-width:1200px) {
+
+    .NavBar {
+        width: 100%;
+        height: 100%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+    h2 {
+
+        font-size: 80%;
+    }
+
+    .slider {
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .organizing {
+        width: 40%;
+        font-size: 15px;
+
+    }
+
+    #store {
+        width: 20%;
+        height: 20%;
+    }
+
+    #store {
+        border: 2px solid grey;
+    }
+
+    #store img {
+        width: 70%;
+        height: 70%;
+        margin-right: 15px;
+    }
+
+    .sectionform {
+        width: 50%;
+        height: 50%;
+    }
+
+    .inputform {
+        width: 50vw;
+    }
+
+    .form form {
+        display: flex;
         flex-direction: column;
 
-     }
-
-     #hoverButtom{
-        width:100%;
-     }
- .footer {
-    left: 30px;
-  }
-
- .formstyle{
-    width:50vw;
-  }
-
-  .sectionform {
-    width:80vw;
-  }
-
-  .marginbuttom{
-    padding:3px;
-}
     }
 
+    #hoverButtom {
+        width: 100%;
+    }
+
+    .footer {
+        left: 30px;
+    }
+
+    .formstyle {
+        width: 50vw;
+    }
+
+    .sectionform {
+        width: 80vw;
+    }
+
+    .marginbuttom {
+        padding: 3px;
+    }
+}
