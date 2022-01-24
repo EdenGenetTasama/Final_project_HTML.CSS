@@ -1,7 +1,8 @@
-* {
+
+body{
+    background-image: url(../imges/backgrounggray2.jpg);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 h2 {

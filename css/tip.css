@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     direction: rtl;
-    background-image: url(../imges/backgrown\ dark.jpg);
     color: wheat;
     box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imges/backgrown\ dark.jpg);
 }
 
 :root {
